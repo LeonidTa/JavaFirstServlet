@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    font-family: 'Roboto';
+}
+
+form {
+    width: 50%;
+    margin: 100px auto;
+    padding: 20px;
+    border: 10px solid bisque;
+    background: bisque;
+    border-radius: 10px;
+}
+
+h1 {
+    background: bisque;
+    margin: 20px;
+    padding: 20px;
+    color: indianred;
+}
+
+.fl-name {
+    background: #cccccc;
+    padding: 10px;
+    text-align: center;
+    border: #ccc 4px solid;
+    border-radius: 20px;
+}
+
+.fl-name input {
+    border-radius: 5px;
+    border: 0px;
+}
+
+.dropdown {
+    background: #cccccc;
+    padding: 10px;
+    text-align: center;
+    border: #ccc 4px solid;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.radioBtn {
+    background: #cccccc;
+    padding: 10px;
+    grid-gap: 20px;
+    text-align: center;
+    border: #ccc 4px solid;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.languages{
+    margin-top: 40px;
+    background: #cccccc;
+    padding: 10px;
+    grid-gap: 20px;
+    text-align: center;
+    border: #ccc 4px solid;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+input[type="radio"]{
+    margin: 0 10px 0 10px;
+}
+
+
+.submit {
+    background: #cccccc;
+    padding: 10px;
+    text-align: center;
+    border: #ccc 4px solid;
+    border-radius: 20px;
+    cursor: pointer;
+}

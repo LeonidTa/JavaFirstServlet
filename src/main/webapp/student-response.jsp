@@ -13,6 +13,22 @@
 <body>
 
     The student is confirmed: ${param.firstname} ${param.lastname}
+    <br/><br/>
+    The student's country is: ${param.country}
+    <br/><br/>
+    The students favorite Programming Language is: ${param.favoriteLanguage}
+    <br/><br/>
+    Favorite languages:
+    <!-- Display a list of favoriteRealLanguages -->
+    <ul>
+        <%
+            String langs []  = request.getParameterValues("favoriteRealLanguage");
+
+            for (String lang : langs) {
+                out.println("<li>" + lang + "</li>");
+            }
+        %>
+    </ul>
 
 </body>
 </html>
